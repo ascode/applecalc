@@ -14,14 +14,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var textOne: UITextField!
     @IBOutlet weak var textTwo: UITextField!
     @IBOutlet weak var result: UILabel!
+    
     @IBAction func calc(sender:AnyObject) {
         
         
         
-        var num1 = self.textOne.text.toInt()
-        var num2 = self.textTwo.text.toInt()
+        var num1 = Int32(self.textOne.text!)
+        var num2 = Int32(self.textTwo.text!)
 
-        if(self.textOne.text.isEmpty){
+        if(self.textOne.text!.isEmpty){
             num1 = 0
         }
         
