@@ -15,7 +15,6 @@
 		EE32A1C61B930968000F48FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE32A1C41B930968000F48FC /* LaunchScreen.xib */; };
 		EE32A1D21B930968000F48FC /* xcalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32A1D11B930968000F48FC /* xcalcTests.swift */; };
 		EE5C65BF1B96061E00CA1DA6 /* Hello.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C65BE1B96061E00CA1DA6 /* Hello.m */; };
-		EE5E4CBE1C1853FB008A3386 /* aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E4CBD1C1853FB008A3386 /* aViewController.swift */; };
 		EE9B3C831B9310CF003CBC9C /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EE9B3C821B9310CF003CBC9C /* logo.png */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		EE5C65BD1B96061E00CA1DA6 /* Hello.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hello.h; sourceTree = "<group>"; };
 		EE5C65BE1B96061E00CA1DA6 /* Hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hello.m; sourceTree = "<group>"; };
 		EE5C65C51B96096F00CA1DA6 /* xcalc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xcalc-Bridging-Header.h"; sourceTree = "<group>"; };
-		EE5E4CBD1C1853FB008A3386 /* aViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aViewController.swift; sourceTree = "<group>"; };
 		EE9B3C821B9310CF003CBC9C /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +95,6 @@
 				EE5C65BD1B96061E00CA1DA6 /* Hello.h */,
 				EE5C65BE1B96061E00CA1DA6 /* Hello.m */,
 				EE5C65C51B96096F00CA1DA6 /* xcalc-Bridging-Header.h */,
-				EE5E4CBD1C1853FB008A3386 /* aViewController.swift */,
 			);
 			path = xcalc;
 			sourceTree = "<group>";
@@ -230,7 +227,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE5E4CBE1C1853FB008A3386 /* aViewController.swift in Sources */,
 				EE5C65BF1B96061E00CA1DA6 /* Hello.m in Sources */,
 				EE0CC1BE1C1855BE00907688 /* README.md in Sources */,
 				EE32A1BE1B930968000F48FC /* ViewController.swift in Sources */,
